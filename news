@@ -1,0 +1,7 @@
+<field name="title" column="title" type="string" length="255" />
+        <field name="content" column="content" type="text" />
+        <field name="slug" column="slug" type="string" length="255" />
+        <field name="metaDescription" column="meta_description" type="text" />
+        <field name="metaKeywords" column="meta_keywords" type="text" />
+        <field name="publishedAt" column="published_at" type="datetime" nullable="true" />
+        <field name="isPublished" column="is_published" type="boolean" nullable="false" />
