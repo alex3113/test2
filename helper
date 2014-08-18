@@ -1,0 +1,19 @@
+Member
+Numéro de licence (add member licence string 20)
+
+MemberHasMembership
+member
+membership
+isPayed (boolean)
+datePayed (datetime)
+amountPayed (integer 4)
+isWaitingList (boolean)
+medicalCertificate (boolean)
+clubSheetSigned (boolean)
+
+
+Membership (table)
+id
+name (string 40)
+amount (integer 4)
+description (text)
